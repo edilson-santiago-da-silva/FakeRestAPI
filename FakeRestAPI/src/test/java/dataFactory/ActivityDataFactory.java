@@ -2,7 +2,7 @@ package dataFactory;
 
 import pojo.ActivitiesPojo;
 
-public class ActivitiesDataFactory {
+public class ActivityDataFactory {
     public static ActivitiesPojo cadastrarAtividadeValida() {
         ActivitiesPojo activities = new ActivitiesPojo();
         activities.setId(31);

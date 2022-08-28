@@ -3,7 +3,7 @@ package modulos.activities;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-import dataFactory.ActivitiesDataFactory;
+import dataFactory.ActivityDataFactory;
 import dataFactory.InvalidActivityDataFactory;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.BeforeEach;
@@ -35,7 +35,7 @@ public class ActivitiesTest {
     public void testCadastrarUmaAtividadeComParametrosValidos() {
         given()
                 .contentType(ContentType.JSON)
-                .body(ActivitiesDataFactory.cadastrarAtividadeValida())
+                .body(ActivityDataFactory.cadastrarAtividadeValida())
             .when()
                 .post("/api/v1/Activities")
             .then()
@@ -43,7 +43,7 @@ public class ActivitiesTest {
     }
 
     @Test
-    @DisplayName("Cadastar uma atividade com paramêtros invalídos")
+    @DisplayName("Cadastrar uma atividade com paramêtros invalídos")
     public void testCadastrarUmaAtividadeComParametrosInvalidos() {
         given()
                 .contentType(ContentType.JSON)
