@@ -29,7 +29,7 @@ java_home| C:\Program Files (x86)\Java\jdk1.8.0_202
   verifique se a alguma linha em vermelho;➡
   Caso haja atualize o Maven;➡
   Atualização do Maven: parte superior do intellij lado direito.
-- Abra a pasta src  ➡ test ➡ java ➡  modulo ➡ tarefa ➡ arquivo TarefaTest.java
+- Abra a pasta src  ➡ test ➡ java ➡  modulo ➡ tarefa ➡ arquivo ActivitiesTest.java
 - Execute o arquivo no intellij.
 
 ## Caso prefira ver a execução do projeto de uma forma mais simples, abra o link abaixo.
